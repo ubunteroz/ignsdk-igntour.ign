@@ -1,0 +1,12 @@
+{
+  "config" : { "debug" : true,
+    "websecurity" : true,
+    "name" : "Tur IGOS Nusantara" },
+  "window" : { 
+	"transparent" : false, 
+	"noframe" : false, 
+	"fullscreen" : true
+	 },
+  "button" : [
+	"reload" ]
+}

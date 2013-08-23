@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="qrc:///js/jquery.js"></script>
+		<link href="css/revamp.css" rel="stylesheet">
+	</head>
+	<body>
+		<input type="submit" value="&times;" class="exit" onClick="ign.quit()">
+		<div class="devbuild">DEVELOPER PREVIEW</div>
+		<div id="page1" class="container">
+			<h1>Halo :-)</h1>
+			<div class="colored"></div>
+			<h2>Selamat datang di IGOS Nusantara. Kami akan memandu Anda untuk mulai berkenalan dengan
+			fitur-fitur yang tersedia di sistem operasi ini.</h2>
+			<h2>Klik "Mulai" untuk memulai tur.</h2>
+			<input id="btn-page1" style="float: right;" class="button" type="submit" value="Mulai">
+		</div>
+		<div id="page2" class="container">
+			<h1>Desktop</h1>
+			<div class="colored"></div>
+			<input id="btn-page2" style="float: right;" class="button" type="submit" value="Lanjut">
+		</div>
+		<div id="page3" class="container">
+			<h1>Multimedia</h1>
+			<div class="colored"></div>
+			<input id="btn-page3" style="float: right;" class="button" type="submit" value="Lanjut">
+		</div>
+		<script>
+			$("#btn-page1").click(function() {
+				function nextpage() {}
+				$("#page1").fadeOut(1000, nextpage);
+			});
+			$("#btn-page2").click(function() {
+				function nextpage() {}
+				$("#page2").fadeOut(1000, nextpage);
+			});
+		</script>
+	</body>
+</html>
